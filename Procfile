@@ -1,1 +1,1 @@
-web: panel serve dashboard.py --address 0.0.0.0 --port $PORT
+web: panel serve dashboard.py --address 0.0.0.0 --port $PORT --allow-websocket-origin=lake-okeechobee-dashboard.onrender.com
