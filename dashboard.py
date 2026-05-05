@@ -47,9 +47,7 @@ if os.path.exists(LOCAL_OUTPUT_DIR):
     DEPLOY_MODE = 'local'
 else:
     # Server mode — data folder is relative to this file
-    OUTPUT_DIR  = os.path.join(
-        os.path.dirname(os.path.abspath(__file__)), 'data'
-    )
+    OUTPUT_DIR = os.path.join(os.getcwd(), 'data')
     DEPLOY_MODE = 'server'
 
 print(f"   Mode       : {DEPLOY_MODE}")
