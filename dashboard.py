@@ -30,6 +30,11 @@ import logging
 import warnings
 import nest_asyncio
 
+import os
+print(f"Working directory: {os.getcwd()}")
+print(f"Files visible: {os.listdir('.')}")
+
+
 warnings.filterwarnings('ignore')
 logging.getLogger('bokeh').setLevel(logging.ERROR)
 nest_asyncio.apply()
