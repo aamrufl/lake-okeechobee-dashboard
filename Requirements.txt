@@ -1,0 +1,10 @@
+panel
+plotly
+folium
+pandas
+numpy
+scipy
+nest_asyncio
+Pillow
+rasterio
+geopandas
