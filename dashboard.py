@@ -30,9 +30,9 @@ import logging
 import warnings
 import nest_asyncio
 
-import os
-print(f"Working directory: {os.getcwd()}")
-print(f"Files visible: {os.listdir('.')}")
+#import os
+#print(f"Working directory: {os.getcwd()}")
+#print(f"Files visible: {os.listdir('.')}")
 
 
 warnings.filterwarnings('ignore')
